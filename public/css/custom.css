@@ -1,0 +1,105 @@
+.loader {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    transition: height 200ms linear;
+    background: rgba(87, 87, 87, 0.5) 50% 50% no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+.exibir {
+    visibility: show;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.table > tbody > tr:hover {
+    background-color: rgba(255, 101, 80, 0.3);
+}
+
+#brasao {
+    width: 20rem;
+    opacity: 1;
+    animation: spin2 3s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin2 {
+    0% {
+        opacity: 0.1;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        opacity: 0.1;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+div.card-header {
+    background-color: rgba(242, 242, 242, 0.5);
+}
+
+h5.card-title {
+    font-weight: bold;
+}
+
+.bg-mt{
+    background-color: rgb(24,49,129);
+}
+
+.bg-purple{
+    background-color: #6f42c1;
+}
+
+/* a.nav-link.active{
+    background-color: white !important;
+    color: black !important;
+}
+
+footer.main-footer, 
+nav.main-header.navbar.navbar-expand.navbar-white.navbar-light{
+    background-color: rgb(24,49,129) !important;
+    color: white !important;
+}
+
+i.fas.fa-bars,
+i.fas.fa-search,
+i.fas.fa-user-circle.fa-lg.mr-1,
+a.nav-link.dropdown-toggle{
+    color: white !important;
+} */
+
+input[type='text']{
+    text-transform: uppercase;
+}
